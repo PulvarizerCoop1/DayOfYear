@@ -10,7 +10,7 @@ public class DayOfYear {
 		this.dayOfMonth = dayOfMonth;
 		this.year = year;
 	}
-
+	
 	// Accessors
 	// Returns the day of the year
 	public int getDayOfYear() {

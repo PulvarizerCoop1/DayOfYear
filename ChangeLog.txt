@@ -1,0 +1,15 @@
+Unit Testing Changelog:
+
+Step 1)
+	I created a new java project that contains a Date class with a basic constructor and variables for
+	Month, day of year, and year.
+
+Step 2)
+	I copied and pasted the dayOfYear method into the class and added accessor methods that would return
+	the day, month, and year, and one method that would call dayOfYear and return the value.
+
+Stetp 3)
+	I created a unit testing class that would instantiate a Date object within multiple methods.
+	Each date object would be uniqe, and using JUnit, I would call each accessor and match the return values
+	with the values I set the Date objects with. After confirming that day, month, and year were being set properly,
+	I created 3 more functions to specifically test the dayOfyear method with different values.
