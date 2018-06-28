@@ -7,6 +7,9 @@ import org.junit.Test;
 import DatePackage.DayOfYear;
 
 public class DateUnitTest {
+	int month = 2;
+	int dayOfMonth = 13;
+	int year = 2018;
 	
 	// Test to make sure the Day is being set properly
 	@Test
@@ -53,7 +56,7 @@ public class DateUnitTest {
 		int month = 1;
 		int dayOfMonth = 5;
 		int year = 2018;
-		int temp = 5;
+		int temp = 5; // Actual value for day of the year
 		
 		// Test
 		DayOfYear day = new DayOfYear(month, dayOfMonth, year);
@@ -67,7 +70,7 @@ public class DateUnitTest {
 		int month = 6;
 		int dayOfMonth = 30;
 		int year = 2018;
-		int temp = 181;
+		int temp = 181; // Actual value for day of the year
 		
 		// Test
 		DayOfYear day = new DayOfYear(month, dayOfMonth, year);
@@ -81,16 +84,12 @@ public class DateUnitTest {
 		int month = 2;
 		int dayOfMonth = 13;
 		int year = 2018;
-		
-		int temp = 44;
+		int temp = 44; // Actual value for day of the year
 		
 		// Test
 		DayOfYear day = new DayOfYear(month, dayOfMonth, year);
-		
-		int dayOfYear = day.getDayOfYear();
 
 		Assert.assertTrue(day.getDayOfYear() == temp);
 	}
-	
 	
 }

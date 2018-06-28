@@ -4,7 +4,7 @@ package DatePackage;
 public class DayOfYear {
 	private int month, dayOfMonth, year;
 	
-	// Constructor
+	// Constructors	
 	public DayOfYear (int month, int dayOfMonth, int year) {
 		this.month = month;
 		this.dayOfMonth = dayOfMonth;
